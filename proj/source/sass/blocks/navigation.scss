@@ -1,0 +1,19 @@
+.navigation {
+	justify-self: end;
+}
+
+.navigation__list {
+	@include reset-list;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navigation__item:not(:last-child) {
+	margin-right: 35px;
+}
+
+.navigation__link {
+	color: #000;
+	font-weight: 600;
+	font-size: 16px;
+}
